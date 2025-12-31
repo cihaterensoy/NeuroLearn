@@ -1,0 +1,66 @@
+{
+  "multiple_choice": [
+    {
+      "question": "Bu bir örnek sorudur: Hukukun temel amaçlarından biri aşağıdakilerden hangisidir?",
+      "options": [
+        "A) Toplumda düzeni sağlamak",
+        "B) Ekonomik krizleri çözmek",
+        "C) Bilimsel araştırmaları desteklemek",
+        "D) Teknolojik gelişmeleri hızlandırmak"
+      ],
+      "correct_answer": "A) Toplumda düzeni sağlamak"
+    },
+    {
+      "question": "Bu bir örnek sorudur: Aşağıdakilerden hangisi hukukun yazılı kaynaklarından değildir?",
+      "options": [
+        "A) Kanun",
+        "B) Yönetmelik",
+        "C) Tüzük",
+        "D) Gelenek"
+      ],
+      "correct_answer": "D) Gelenek"
+    },
+    {
+      "question": "Bu bir örnek sorudur: Ahlak kurallarını diğer sosyal düzen kurallarından ayıran temel özellik nedir?",
+      "options": [
+        "A) Vicdani baskı oluşturması",
+        "B) Devlet tarafından zorla uygulanması",
+        "C) Maddi yaptırım içermesi",
+        "D) Mahkeme tarafından belirlenmesi"
+      ],
+      "correct_answer": "A) Vicdani baskı oluşturması"
+    }
+  ],
+  "fill_blank": [
+    {
+      "question": "Bu bir örnek sorudur: Hukuk kuralları devletin ___ gücüyle desteklenir.",
+      "options": [
+        "zorlayıcı",
+        "manevi",
+        "yönlendirici",
+        "teorik"
+      ],
+      "correct_answer": "zorlayıcı"
+    },
+    {
+      "question": "Bu bir örnek sorudur: Yazısız hukuk kaynaklarına ___ hukuku denir.",
+      "options": [
+        "örf ve adet",
+        "anayasa",
+        "idare",
+        "ticaret"
+      ],
+      "correct_answer": "örf ve adet"
+    },
+    {
+      "question": "Bu bir örnek sorudur: Kanunlar genellikle yürürlüğe girdikten sonraki olaylara uygulanır ve ___ etkili olmaz.",
+      "options": [
+        "geniş",
+        "geleceğe",
+        "geçmişe",
+        "kişiye"
+      ],
+      "correct_answer": "geçmişe"
+    }
+  ]
+}

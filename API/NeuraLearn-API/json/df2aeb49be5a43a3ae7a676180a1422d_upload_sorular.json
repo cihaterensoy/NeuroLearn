@@ -1,0 +1,206 @@
+{
+  "multiple_choice": [
+    {
+      "question": "\"Hukukun Temel Kavramları\" dersi, farklı yükseköğretim kurumlarında aşağıdaki isimlerden hangisiyle verilmemektedir?",
+      "options": [
+        "A) Temel Hukuk",
+        "B) Hukuka Giriş",
+        "C) Genel Hukuk Bilgisi",
+        "D) İdari Hukuk Esasları"
+      ],
+      "correct_answer": "D) İdari Hukuk Esasları"
+    },
+    {
+      "question": "Sosyal düzen kurallarını diğerlerinden ayıran temel özelliklerden biri aşağıdakilerden hangisi değildir?",
+      "options": [
+        "A) Genel olması",
+        "B) Sürekli olması",
+        "C) Yaptırımlı olması",
+        "D) Kişisel olması"
+      ],
+      "correct_answer": "D) Kişisel olması"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi hukuki yaptırım türlerinden biri değildir?",
+      "options": [
+        "A) Ceza",
+        "B) Cebri icra",
+        "C) Teşvik",
+        "D) Geçersizlik"
+      ],
+      "correct_answer": "C) Teşvik"
+    },
+    {
+      "question": "Hukukun yazılı ve asıl kaynakları arasında aşağıdakilerden hangisi yer almaz?",
+      "options": [
+        "A) Anayasa",
+        "B) Kanunlar",
+        "C) Gelenek Hukuku",
+        "D) Cumhurbaşkanlığı Kararnameleri"
+      ],
+      "correct_answer": "C) Gelenek Hukuku"
+    },
+    {
+      "question": "Hukuk kuralları uygulama bakımından hangi türde sınıflandırılmaz?",
+      "options": [
+        "A) Emredici",
+        "B) Tamamlayıcı",
+        "C) Dayatmacı",
+        "D) Yorumlayıcı"
+      ],
+      "correct_answer": "C) Dayatmacı"
+    },
+    {
+      "question": "Kanunların uygulanmasında önemli olan hususlardan biri aşağıdakilerden hangisi değildir?",
+      "options": [
+        "A) Zaman",
+        "B) Yer",
+        "C) Kişi",
+        "D) Duygu"
+      ],
+      "correct_answer": "D) Duygu"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi genel olarak kabul edilen ana hukuk sistemlerinden biri değildir?",
+      "options": [
+        "A) Kıta Avrupası Hukuku",
+        "B) Anglo-Amerikan Hukuku",
+        "C) Çağdaş Türk Hukuku",
+        "D) İslam Hukuku"
+      ],
+      "correct_answer": "C) Çağdaş Türk Hukuku"
+    },
+    {
+      "question": "Dersin öğrencilere temel felsefesini anlatmayı ve sonraki dersler için pratik bilgiler sunmayı amaçladığı konu nedir?",
+      "options": [
+        "A) Türk Hukuk Tarihi",
+        "B) Yargı Örgütü",
+        "C) Hukuk",
+        "D) Ekonomi"
+      ],
+      "correct_answer": "C) Hukuk"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi sosyal düzen kurallarının türlerinden biri değildir?",
+      "options": [
+        "A) Din kuralları",
+        "B) Ahlak kuralları",
+        "C) Bilim kuralları",
+        "D) Görgü kuralları"
+      ],
+      "correct_answer": "C) Bilim kuralları"
+    },
+    {
+      "question": "Hukuk kurallarını diğer sosyal düzen kurallarından ayıran temel özellik nedir?",
+      "options": [
+        "A) İnsan ilişkilerini düzenlemesi",
+        "B) Geçmişe etki etmesi",
+        "C) Devletin zorlayıcı gücüyle desteklenmesi",
+        "D) Sadece yazılı olması"
+      ],
+      "correct_answer": "C) Devletin zorlayıcı gücüyle desteklenmesi"
+    }
+  ],
+  "fill_blank": [
+    {
+      "question": "Sosyal düzen kuralları; din kuralları, ahlak kuralları, görgü kuralları ve ___ kuralları olmak üzere dört ana başlıkta sınıflandırılır.",
+      "correct_answer": "hukuk",
+      "options": [
+        "etik",
+        "vicdan",
+        "medeniyet",
+        "nezaket"
+      ]
+    },
+    {
+      "question": "Hukuk kuralları, diğer sosyal düzen kurallarından farklı olarak devletin ___ gücüyle desteklenir ve maddi yaptırımlar içerir.",
+      "correct_answer": "zorlayıcı",
+      "options": [
+        "manevi",
+        "teşvik edici",
+        "yol gösterici",
+        "uzlaştırıcı"
+      ]
+    },
+    {
+      "question": "Yaptırım, sosyal kurallara uyulmaması durumunda karşılaşılan ___ dir.",
+      "correct_answer": "tepki",
+      "options": [
+        "ödül",
+        "başarı",
+        "onay",
+        "itaat"
+      ]
+    },
+    {
+      "question": "Hukukun kaynağı, hukuk kurallarının ___ çıktığı yeri ifade eder.",
+      "correct_answer": "ortaya",
+      "options": [
+        "uygulandığı",
+        "tartışıldığı",
+        "hazırlandığı",
+        "değiştirildiği"
+      ]
+    },
+    {
+      "question": "Yazısız asıl hukuk kaynağı ise ___ hukukudur.",
+      "correct_answer": "gelenek",
+      "options": [
+        "teamül",
+        "tüzük",
+        "yönetmelik",
+        "kanun"
+      ]
+    },
+    {
+      "question": "Hukukun yardımcı kaynakları ise ___ hukukunu (bilimsel veya yargı içtihadı) içerir.",
+      "correct_answer": "içtihat",
+      "options": [
+        "yazılı",
+        "örf",
+        "pozitif",
+        "modern"
+      ]
+    },
+    {
+      "question": "___ hukuk kuralları, kanunların daha iyi anlaşılması için belli kavramların anlamını belirler.",
+      "correct_answer": "Tanımlayıcı",
+      "options": [
+        "Emredici",
+        "Tamamlayıcı",
+        "Yorumlayıcı",
+        "Geçici"
+      ]
+    },
+    {
+      "question": "Kanunların uygulanması, soyut kuralların ___ olaylara uygulanması demektir.",
+      "correct_answer": "somut",
+      "options": [
+        "teorik",
+        "geçmiş",
+        "genel",
+        "benzer"
+      ]
+    },
+    {
+      "question": "Kanunlar genellikle yürürlüğe girdikleri tarihten sonraki olaylara uygulanır ve ___ etki etmez.",
+      "correct_answer": "geçmişe",
+      "options": [
+        "geleceğe",
+        "günümüze",
+        "topluma",
+        "kişiye"
+      ]
+    },
+    {
+      "question": "Karşılaştırmalı hukuk, farklı hukuk düzenlerinde benzer sorunlara nasıl ___ bulunduğunu araştırır.",
+      "correct_answer": "çözüm",
+      "options": [
+        "tepki",
+        "örnek",
+        "kural",
+        "yasa"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+*.iml
+.gradle/
+local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+/build/
+/app/build/
+/captures/
+/outputs/
+
+.DS_Store
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services
+google-services.json
+
+# =========================
+# Gradle
+# =========================
+.gradle/
+**/build/
+!**/src/**/build/
+# (Nadiren build altındaki kaynaklar kasıtlı tutuluyorsa yukarıdaki istisna işinize yarar)
+
+# =========================
+# Local config
+# =========================
+local.properties
+
+# =========================
+# Android Studio / IntelliJ
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+/out/
+
+# Android Studio caches
+/caches/
+# (Genelde .idea ile birlikte zaten kapsam içine girer; ek bırakmak zararsız)
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+.DS_Store
+Thumbs.db
+
+# =========================
+# Kotlin (proje Java olsa bile bazen gelir)
+# =========================
+*.kotlin_module
+
+# =========================
+# External native build
+# =========================
+.cxx/
+.externalNativeBuild/
+
+# =========================
+# Android generated
+# =========================
+captures/
+.navigation/
+output.json
+
+# =========================
+# Lint / analysis outputs
+# =========================
+lint-results*.xml
+lint-results*.html
+lint*.sarif
+lint-baseline.xml
+
+# =========================
+# Keystore / secrets (KRİTİK)
+# =========================
+*.jks
+*.keystore
+google-services.json
+# Eğer Firebase kullanıyorsanız google-services.json genelde repoya KONUR.
+# Burada ignore etmek istiyorsanız, bunu özel gereksiniminize göre kaldırın.
+
+# =========================
+# NDK / tooling (opsiyonel)
+# =========================
+obj/
+

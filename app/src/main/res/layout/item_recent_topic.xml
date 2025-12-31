@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- PDF Icon -->
+        <ImageView
+            android:id="@+id/ivRecentIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_report_image"
+            app:tint="#3B82F6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <!-- Topic Title -->
+        <TextView
+            android:id="@+id/tvRecentTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="PDF Dosyası"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#1A1A2E"
+            android:layout_marginStart="12dp"
+            app:layout_constraintStart_toEndOf="@id/ivRecentIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tvRecentScore" />
+
+        <!-- Topic Description/Date -->
+        <TextView
+            android:id="@+id/tvRecentDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Tarih bilgisi"
+            android:textSize="12sp"
+            android:textColor="#6B7280"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="12dp"
+            app:layout_constraintStart_toEndOf="@id/ivRecentIcon"
+            app:layout_constraintTop_toBottomOf="@id/tvRecentTitle"
+            app:layout_constraintEnd_toStartOf="@id/tvRecentScore" />
+
+        <!-- Success Rate -->
+        <TextView
+            android:id="@+id/tvRecentScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="75%"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#10B981"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

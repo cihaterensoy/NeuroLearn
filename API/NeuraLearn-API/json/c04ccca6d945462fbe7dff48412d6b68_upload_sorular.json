@@ -1,0 +1,206 @@
+{
+  "multiple_choice": [
+    {
+      "question": "\"Hukukun Temel Kavramları\" dersi, metne göre aşağıdaki isimlerden hangisiyle farklı yükseköğretim kurumlarında verilmektedir?",
+      "options": [
+        "A) Hukuka Giriş",
+        "B) Hukuk Felsefesi",
+        "C) Hukuk Sosyolojisi",
+        "D) Uluslararası Hukuk"
+      ],
+      "correct_answer": "A) Hukuka Giriş"
+    },
+    {
+      "question": "Dersin amacı, öğrencilere hukukun temel felsefesini anlatmak ve bunun yanı sıra ne sunmaktır?",
+      "options": [
+        "A) Yargısal süreçler hakkında detaylı bilgiler",
+        "B) İleri düzeyde hukuk teorileri",
+        "C) Sonraki yıllarda karşılaşacakları hukuk dersleri için pratik bilgiler",
+        "D) Türk Hukuk Tarihi'nin derinlemesine analizi"
+      ],
+      "correct_answer": "C) Sonraki yıllarda karşılaşacakları hukuk dersleri için pratik bilgiler"
+    },
+    {
+      "question": "Sosyal düzen kurallarının metinde belirtilen genel özellikleri nelerdir?",
+      "options": [
+        "A) Esnek, değişebilir ve tavsiye niteliğindedir.",
+        "B) Yerel, geçici ve yaptırım içermeyen.",
+        "C) Genel, sürekli ve yaptırımlıdır.",
+        "D) Subjektif, istisnai ve gönüllülüğe dayalıdır."
+      ],
+      "correct_answer": "C) Genel, sürekli ve yaptırımlıdır."
+    },
+    {
+      "question": "Hukuk kurallarını diğer sosyal düzen kurallarından ayıran temel özellik nedir?",
+      "options": [
+        "A) Evrensel nitelikte olmaları.",
+        "B) Ahlaki değerlere dayanmaları.",
+        "C) Devletin zorlayıcı gücüyle desteklenmeleri ve maddi yaptırımlar içermeleri.",
+        "D) Toplumun genel kabulüne sahip olmaları."
+      ],
+      "correct_answer": "C) Devletin zorlayıcı gücüyle desteklenmeleri ve maddi yaptırımlar içermeleri."
+    },
+    {
+      "question": "Metne göre \"yaptırım\" kavramı ne anlama gelmektedir?",
+      "options": [
+        "A) Hukuki bir davanın açılması.",
+        "B) Sosyal kurallara uyulmaması durumunda karşılaşılan tepki.",
+        "C) Bir anlaşmazlığın mahkeme dışında çözülmesi.",
+        "D) Kamu gücünün bir kuralı belirlemesi."
+      ],
+      "correct_answer": "B) Sosyal kurallara uyulmaması durumunda karşılaşılan tepki."
+    },
+    {
+      "question": "Hukukun kaynağı ifadesi neyi belirtir?",
+      "options": [
+        "A) Hukuk eğitiminin verildiği üniversiteleri.",
+        "B) Hukuk kurallarının ortaya çıktığı yeri.",
+        "C) Hukuk profesörlerinin yayınlarını.",
+        "D) Hukuki davaların başlangıç noktasını."
+      ],
+      "correct_answer": "B) Hukuk kurallarının ortaya çıktığı yeri."
+    },
+    {
+      "question": "Aşağıdakilerden hangisi pozitif hukukun yazısız asıl kaynaklarından biridir?",
+      "options": [
+        "A) Kanunlar",
+        "B) Anayasa",
+        "C) Gelenek hukuku",
+        "D) Cumhurbaşkanlığı Kararnameleri"
+      ],
+      "correct_answer": "C) Gelenek hukuku"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi, hukuk kurallarının uygulama bakımından sınıflandırılmasında belirtilen türlerden biri değildir?",
+      "options": [
+        "A) Emredici hukuk kuralları",
+        "B) Tamamlayıcı hukuk kuralları",
+        "C) Tarihi hukuk kuralları",
+        "D) Tanımlayıcı hukuk kuralları"
+      ],
+      "correct_answer": "C) Tarihi hukuk kuralları"
+    },
+    {
+      "question": "Kanunların uygulanmasında hangi üç bakım önemlidir?",
+      "options": [
+        "A) Kapsam, süre ve içerik",
+        "B) Zaman, yer ve kişi",
+        "C) Amaç, yöntem ve sonuç",
+        "D) Gerekçe, hüküm ve açıklık"
+      ],
+      "correct_answer": "B) Zaman, yer ve kişi"
+    },
+    {
+      "question": "Karşılaştırmalı hukukun temel amacı nedir?",
+      "options": [
+        "A) Sadece tek bir ülkenin hukuk sistemini incelemek.",
+        "B) Farklı hukuk düzenlerinde benzer sorunlara nasıl çözüm bulunduğunu araştırmak.",
+        "C) Uluslararası anlaşmaların tarihini belgelemek.",
+        "D) Hukuki metinlerin dilbilimsel analizini yapmak."
+      ],
+      "correct_answer": "B) Farklı hukuk düzenlerinde benzer sorunlara nasıl çözüm bulunduğunu araştırmak."
+    }
+  ],
+  "fill_blank": [
+    {
+      "question": "Kitap, hukukun teorik boyutunu ele alarak, Türk Hukuk Tarihi ve ___ Örgütü hakkında temel bilgiler vermeyi amaçlar.",
+      "correct_answer": "Yargı",
+      "options": [
+        "Yasama",
+        "Yürütme",
+        "Askeri",
+        "Ticaret"
+      ]
+    },
+    {
+      "question": "Sosyal düzen kuralları din kuralları, ahlak kuralları, görgü kuralları ve ___ kuralları olmak üzere dört ana başlıkta sınıflandırılır.",
+      "correct_answer": "hukuk",
+      "options": [
+        "ekonomi",
+        "sanat",
+        "siyaset",
+        "teknoloji"
+      ]
+    },
+    {
+      "question": "Hukuk kuralları, diğer sosyal düzen kurallarından farklı olarak devletin ___ gücüyle desteklenir ve maddi yaptırımlar içerir.",
+      "correct_answer": "zorlayıcı",
+      "options": [
+        "tavsiye edici",
+        "bilimsel",
+        "geleneksel",
+        "diplomatik"
+      ]
+    },
+    {
+      "question": "Hukuki yaptırımlar ceza, cebri icra, tazminat, geçersizlik ve ___ olmak üzere beş ana kategoride incelenebilir.",
+      "correct_answer": "iptal",
+      "options": [
+        "feragat",
+        "arabuluculuk",
+        "uzlaşma",
+        "erteleme"
+      ]
+    },
+    {
+      "question": "Hukukun kaynakları, ___ ve yardımcı kaynaklar olarak ikiye ayrılır.",
+      "correct_answer": "asıl",
+      "options": [
+        "ikincil",
+        "tali",
+        "dönemsel",
+        "geçici"
+      ]
+    },
+    {
+      "question": "Yazılı ve asıl kaynaklar Anayasa, uluslararası anlaşmalar, kanunlar, Cumhurbaşkanlığı Kararnameleri ve ___dir.",
+      "correct_answer": "yönetmelikler",
+      "options": [
+        "bildirgeler",
+        "protokoller",
+        "tezler",
+        "kararlar"
+      ]
+    },
+    {
+      "question": "Hukukun yardımcı kaynakları ise ___ hukukunu (bilimsel veya yargı içtihadı) içerir.",
+      "correct_answer": "içtihat",
+      "options": [
+        "doktrin",
+        "töre",
+        "emredici",
+        "tamamlayıcı"
+      ]
+    },
+    {
+      "question": "\"İşçi\" veya \"yerleşim yeri\" gibi kavramların anlamını belirleyen hukuk kuralları ___ hukuk kurallarıdır.",
+      "correct_answer": "tanımlayıcı",
+      "options": [
+        "emredici",
+        "tamamlayıcı",
+        "yorumlayıcı",
+        "geçici"
+      ]
+    },
+    {
+      "question": "Kanunlar genellikle yürürlüğe girdikleri tarihten sonraki olaylara uygulanır ve ___ etki etmez.",
+      "correct_answer": "geçmişe",
+      "options": [
+        "geleceğe",
+        "hukuka",
+        "topluma",
+        "bireylere"
+      ]
+    },
+    {
+      "question": "Hukuk sistemleri genel olarak Kıta Avrupası Hukuku, Anglo-Amerikan Hukuku, Sosyalist Hukuk ve ___ Hukuku olmak üzere dört ana başlıkta kümelendirilir.",
+      "correct_answer": "İslam",
+      "options": [
+        "Roma",
+        "Modern",
+        "Eski",
+        "Doğu"
+      ]
+    }
+  ]
+}

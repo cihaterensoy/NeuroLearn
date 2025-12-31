@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <!-- Header Section -->
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hoş Geldin!"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#1A1A2E"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bugün ne öğrenmek istersin?"
+            android:textSize="16sp"
+            android:textColor="#6B7280"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvWelcome" />
+
+        <!-- Stats Card with ConstraintLayout -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/statsCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:layout_constraintTop_toBottomOf="@id/tvSubtitle"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <!-- Streak Section -->
+                <TextView
+                    android:id="@+id/tvStreak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#FF9500"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/divider1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvStreakLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Test Sayısı"
+                    android:textSize="12sp"
+                    android:textColor="#6B7280"
+                    app:layout_constraintStart_toStartOf="@id/tvStreak"
+                    app:layout_constraintEnd_toEndOf="@id/tvStreak"
+                    app:layout_constraintTop_toBottomOf="@id/tvStreak" />
+
+                <!-- Divider 1 -->
+                <View
+                    android:id="@+id/divider1"
+                    android:layout_width="1dp"
+                    android:layout_height="40dp"
+                    android:background="#E5E7EB"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+                <!-- Total Questions Section -->
+                <TextView
+                    android:id="@+id/tvTotalQuestions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#10B981"
+                    app:layout_constraintStart_toEndOf="@id/divider1"
+                    app:layout_constraintEnd_toStartOf="@id/divider2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvQuestionsLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tamamlanan"
+                    android:textSize="12sp"
+                    android:textColor="#6B7280"
+                    app:layout_constraintStart_toStartOf="@id/tvTotalQuestions"
+                    app:layout_constraintEnd_toEndOf="@id/tvTotalQuestions"
+                    app:layout_constraintTop_toBottomOf="@id/tvTotalQuestions" />
+
+                <!-- Divider 2 -->
+                <View
+                    android:id="@+id/divider2"
+                    android:layout_width="1dp"
+                    android:layout_height="40dp"
+                    android:background="#E5E7EB"
+                    app:layout_constraintStart_toEndOf="@id/tvTotalQuestions"
+                    app:layout_constraintEnd_toStartOf="@id/tvSuccessRate"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+                <!-- Success Rate Section -->
+                <TextView
+                    android:id="@+id/tvSuccessRate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#8B5CF6"
+                    app:layout_constraintStart_toEndOf="@id/divider2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvSuccessLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Başarı"
+                    android:textSize="12sp"
+                    android:textColor="#6B7280"
+                    app:layout_constraintStart_toStartOf="@id/tvSuccessRate"
+                    app:layout_constraintEnd_toEndOf="@id/tvSuccessRate"
+                    app:layout_constraintTop_toBottomOf="@id/tvSuccessRate" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Main Actions Title -->
+        <TextView
+            android:id="@+id/tvActionsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yeni Çalışma Başlat"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1A1A2E"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/statsCard" />
+
+        <!-- Upload PDF Card with ConstraintLayout -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardUploadPdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#FFFFFF"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:layout_constraintTop_toBottomOf="@id/tvActionsTitle"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <View
+                    android:id="@+id/pdfIconBg"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/circle_background_blue"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+                <ImageView
+                    android:id="@+id/ivPdfIcon"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@android:drawable/ic_menu_report_image"
+                    app:tint="#3B82F6"
+                    app:layout_constraintStart_toStartOf="@id/pdfIconBg"
+                    app:layout_constraintEnd_toEndOf="@id/pdfIconBg"
+                    app:layout_constraintTop_toTopOf="@id/pdfIconBg"
+                    app:layout_constraintBottom_toBottomOf="@id/pdfIconBg" />
+
+                <TextView
+                    android:id="@+id/tvPdfTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="PDF Yükle"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    app:layout_constraintStart_toEndOf="@id/pdfIconBg"
+                    app:layout_constraintEnd_toStartOf="@id/ivPdfArrow"
+                    app:layout_constraintTop_toTopOf="@id/pdfIconBg" />
+
+                <TextView
+                    android:id="@+id/tvPdfDesc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="PDF dosyasından soru oluştur"
+                    android:textSize="14sp"
+                    android:textColor="#6B7280"
+                    android:layout_marginTop="4dp"
+                    app:layout_constraintStart_toStartOf="@id/tvPdfTitle"
+                    app:layout_constraintEnd_toEndOf="@id/tvPdfTitle"
+                    app:layout_constraintTop_toBottomOf="@id/tvPdfTitle" />
+
+                <ImageView
+                    android:id="@+id/ivPdfArrow"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@android:drawable/ic_menu_more"
+                    app:tint="#9CA3AF"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Enter Topic Card with ConstraintLayout -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardEnterTopic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#FFFFFF"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:layout_constraintTop_toBottomOf="@id/cardUploadPdf"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <View
+                    android:id="@+id/topicIconBg"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/circle_background_purple"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+                <ImageView
+                    android:id="@+id/ivTopicIcon"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@android:drawable/ic_menu_edit"
+                    app:tint="#8B5CF6"
+                    app:layout_constraintStart_toStartOf="@id/topicIconBg"
+                    app:layout_constraintEnd_toEndOf="@id/topicIconBg"
+                    app:layout_constraintTop_toTopOf="@id/topicIconBg"
+                    app:layout_constraintBottom_toBottomOf="@id/topicIconBg" />
+
+                <TextView
+                    android:id="@+id/tvTopicTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Konu Gir"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#1A1A2E"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    app:layout_constraintStart_toEndOf="@id/topicIconBg"
+                    app:layout_constraintEnd_toStartOf="@id/ivTopicArrow"
+                    app:layout_constraintTop_toTopOf="@id/topicIconBg" />
+
+                <TextView
+                    android:id="@+id/tvTopicDesc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Herhangi bir konuda soru oluştur"
+                    android:textSize="14sp"
+                    android:textColor="#6B7280"
+                    android:layout_marginTop="4dp"
+                    app:layout_constraintStart_toStartOf="@id/tvTopicTitle"
+                    app:layout_constraintEnd_toEndOf="@id/tvTopicTitle"
+                    app:layout_constraintTop_toBottomOf="@id/tvTopicTitle" />
+
+                <ImageView
+                    android:id="@+id/ivTopicArrow"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@android:drawable/ic_menu_more"
+                    app:tint="#9CA3AF"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Recent Topics Title -->
+        <TextView
+            android:id="@+id/tvRecentTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Son Çalışmalar"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1A1A2E"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardEnterTopic" />
+
+        <!-- Recent Topics RecyclerView -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvRecentTopics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:nestedScrollingEnabled="false"
+            android:overScrollMode="never"
+            app:layout_constraintTop_toBottomOf="@id/tvRecentTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:itemCount="3"
+            tools:listitem="@layout/item_recent_topic" />
+
+        <!-- Empty State with ConstraintLayout -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/emptyState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="32dp"
+            android:paddingVertical="48dp"
+            app:layout_constraintTop_toBottomOf="@id/tvRecentTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <ImageView
+                android:id="@+id/ivEmptyIcon"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@android:drawable/ic_menu_search"
+                android:alpha="0.3"
+                android:tint="#9CA3AF"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/tvEmptyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Henüz çalışma yok"
+                android:textSize="16sp"
+                android:textColor="#6B7280"
+                android:layout_marginTop="16dp"
+                app:layout_constraintTop_toBottomOf="@id/ivEmptyIcon"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/tvEmptyDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yukarıdan bir seçenek ile başla"
+                android:textSize="14sp"
+                android:textColor="#9CA3AF"
+                android:layout_marginTop="4dp"
+                app:layout_constraintTop_toBottomOf="@id/tvEmptyTitle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
+

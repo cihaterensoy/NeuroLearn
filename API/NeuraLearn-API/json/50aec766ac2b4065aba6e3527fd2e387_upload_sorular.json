@@ -1,0 +1,20 @@
+{
+  "multiple_choice": [
+    {
+      "question": "Bu bir test sorusudur?",
+      "options": [
+        "Evet",
+        "Hayır",
+        "Belki",
+        "Hiçbiri"
+      ],
+      "correct_answer": "Evet"
+    }
+  ],
+  "fill_blank": [
+    {
+      "question": "Türkiye'nin başkenti ___'dir.",
+      "correct_answer": "Ankara"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "multiple_choice": [
+    {
+      "question": "Aşağıdakilerden hangisi bir programlama dilidir?",
+      "options": [
+        "Python",
+        "Excel",
+        "Word",
+        "Photoshop"
+      ],
+      "correct_answer": "Python"
+    },
+    {
+      "question": "HTML'in açılımı nedir?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Tech Modern Language",
+        "Home Tool Markup Language",
+        "Hyper Transfer Markup Language"
+      ],
+      "correct_answer": "Hyper Text Markup Language"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi bir veritabanı yönetim sistemidir?",
+      "options": [
+        "MySQL",
+        "Java",
+        "HTML",
+        "CSS"
+      ],
+      "correct_answer": "MySQL"
+    }
+  ],
+  "fill_blank": [
+    {
+      "question": "Türkiye'nin başkenti ___'dir.",
+      "correct_answer": "Ankara",
+      "options": [
+        "İstanbul",
+        "İzmir",
+        "Bursa",
+        "Antalya"
+      ]
+    },
+    {
+      "question": "Güneş sistemindeki en büyük gezegen ___'dir.",
+      "correct_answer": "Jüpiter",
+      "options": [
+        "Mars",
+        "Dünya",
+        "Venüs",
+        "Satürn"
+      ]
+    },
+    {
+      "question": "Python ___ programlama dilidir.",
+      "correct_answer": "yüksek seviyeli",
+      "options": [
+        "düşük seviyeli",
+        "makine",
+        "donanım",
+        "binary"
+      ]
+    }
+  ]
+}

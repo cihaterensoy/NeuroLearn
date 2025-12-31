@@ -1,0 +1,206 @@
+{
+  "multiple_choice": [
+    {
+      "question": "\"Hukukun Temel Kavramları\" dersi, farklı yükseköğretim kurumlarında aşağıdaki isimlerden hangisiyle verilMEZ?",
+      "options": [
+        "A) Temel Hukuk",
+        "B) Hukuka Giriş",
+        "C) Genel Hukuk Bilgisi",
+        "D) İdari Hukuk Esasları"
+      ],
+      "correct_answer": "D) İdari Hukuk Esasları"
+    },
+    {
+      "question": "Kitabın genel amacı aşağıdaki seçeneklerden hangisini kapsamaz?",
+      "options": [
+        "A) Hukukun teorik boyutunu ele almak",
+        "B) Türk Hukuk Tarihi hakkında temel bilgiler vermek",
+        "C) Yargı Örgütü hakkında temel bilgiler vermek",
+        "D) Derinlemesine güncel dava örnekleri sunmak"
+      ],
+      "correct_answer": "D) Derinlemesine güncel dava örnekleri sunmak"
+    },
+    {
+      "question": "Sosyal düzen kurallarının temel özellikleri arasında aşağıdakilerden hangisi yer almaz?",
+      "options": [
+        "A) Genel olması",
+        "B) Sürekli olması",
+        "C) Yaptırımlı olması",
+        "D) Kişiye özel olması"
+      ],
+      "correct_answer": "D) Kişiye özel olması"
+    },
+    {
+      "question": "Hukuk kurallarını diğer sosyal düzen kurallarından ayıran temel özellik nedir?",
+      "options": [
+        "A) İnsan ilişkilerini düzenlemesi",
+        "B) Belirli bir inanç sistemine dayanması",
+        "C) Devletin zorlayıcı gücüyle desteklenmesi",
+        "D) Ahlaki değerleri içermesi"
+      ],
+      "correct_answer": "C) Devletin zorlayıcı gücüyle desteklenmesi"
+    },
+    {
+      "question": "Aşağıdakilerden hangisi hukuki yaptırım türlerinden biri DEĞİLDİR?",
+      "options": [
+        "A) Ceza",
+        "B) Teşekkür",
+        "C) Tazminat",
+        "D) İptal"
+      ],
+      "correct_answer": "B) Teşekkür"
+    },
+    {
+      "question": "Hukukun kaynakları, asıl ve yardımcı kaynaklar olarak ikiye ayrılır. Aşağıdakilerden hangisi yazılı asıl kaynaklardan biri DEĞİLDİR?",
+      "options": [
+        "A) Anayasa",
+        "B) Kanunlar",
+        "C) Gelenek Hukuku",
+        "D) Cumhurbaşkanlığı Kararnameleri"
+      ],
+      "correct_answer": "C) Gelenek Hukuku"
+    },
+    {
+      "question": "Hukukun yardımcı kaynakları nelerden oluşur?",
+      "options": [
+        "A) Sadece yazılı kanunlar",
+        "B) Anayasa ve uluslararası anlaşmalar",
+        "C) İçtihat hukuku (bilimsel veya yargı içtihadı)",
+        "D) Halk arasındaki örf ve adetler"
+      ],
+      "correct_answer": "C) İçtihat hukuku (bilimsel veya yargı içtihadı)"
+    },
+    {
+      "question": "Hukuk kurallarının \"işçi\" veya \"yerleşim yeri\" gibi belli kavramların anlamını belirlemesi, uygulama bakımından hangi tür hukuk kuralına örnektir?",
+      "options": [
+        "A) Emredici kural",
+        "B) Tamamlayıcı kural",
+        "C) Yorumlayıcı kural",
+        "D) Tanımlayıcı kural"
+      ],
+      "correct_answer": "D) Tanımlayıcı kural"
+    },
+    {
+      "question": "Kanunların uygulanması konusunda aşağıdakilerden hangisi doğrudur?",
+      "options": [
+        "A) Kanunlar genellikle yürürlüğe girmeden önceki olaylara uygulanır.",
+        "B) Kanunlar yalnızca kişi bakımından uygulanır.",
+        "C) Kanunlar, soyut kuralların somut olaylara uygulanması demektir.",
+        "D) Kanunların geçmişe etki etmesi esastır."
+      ],
+      "correct_answer": "C) Kanunlar, soyut kuralların somut olaylara uygulanması demektir."
+    },
+    {
+      "question": "Dünya genelindeki hukuk sistemleri genel olarak dört ana başlıkta kümelendirilmektedir. Aşağıdakilerden hangisi bu ana başlıklardan biri DEĞİLDİR?",
+      "options": [
+        "A) Kıta Avrupası Hukuku",
+        "B) Anglo-Amerikan Hukuku",
+        "C) Antik Roma Hukuku",
+        "D) İslam Hukuku"
+      ],
+      "correct_answer": "C) Antik Roma Hukuku"
+    }
+  ],
+  "fill_blank": [
+    {
+      "question": "\"Hukukun Temel Kavramları\" dersinin amacı, öğrencilere hukukun temel felsefesini anlatmak ve sonraki yıllarda karşılaşacakları hukuk dersleri için ___ bilgiler sunmaktır.",
+      "correct_answer": "pratik",
+      "options": [
+        "güncel",
+        "teorik",
+        "detaylı",
+        "akademik"
+      ]
+    },
+    {
+      "question": "İnsanların diğer insanlarla ve kurumlarla kurduğu sosyal ilişkilerin düzenli bir şekilde yürümesi için ___ kuralları oluşturulmuştur.",
+      "correct_answer": "sosyal düzen",
+      "options": [
+        "yazılı",
+        "ahlaki",
+        "kanuni",
+        "bireysel"
+      ]
+    },
+    {
+      "question": "Sosyal düzen kuralları din kuralları, ahlak kuralları, görgü kuralları ve ___ kuralları olmak üzere dört ana başlıkta sınıflandırılır.",
+      "correct_answer": "hukuk",
+      "options": [
+        "ekonomik",
+        "siyasi",
+        "kültürel",
+        "bilim"
+      ]
+    },
+    {
+      "question": "Bir kuralın ihlali durumunda, kamu gücü devreye girerek ___ kullanabilir.",
+      "correct_answer": "zor",
+      "options": [
+        "takdir",
+        "bilgi",
+        "yetki",
+        "imkan"
+      ]
+    },
+    {
+      "question": "Yaptırım, sosyal kurallara uyulmaması durumunda karşılaşılan ___ dir.",
+      "correct_answer": "tepki",
+      "options": [
+        "ödül",
+        "onay",
+        "izin",
+        "görüş"
+      ]
+    },
+    {
+      "question": "Hukukun kaynağı, hukuk kurallarının ortaya çıktığı ___ ifade eder.",
+      "correct_answer": "yeri",
+      "options": [
+        "zamanı",
+        "kişiyi",
+        "amacı",
+        "sistemi"
+      ]
+    },
+    {
+      "question": "Yazısız asıl kaynak ise ___ hukukudur.",
+      "correct_answer": "gelenek",
+      "options": [
+        "bilim",
+        "içtihat",
+        "yargı",
+        "cumhurbaşkanlığı"
+      ]
+    },
+    {
+      "question": "Hukuk kuralları uygulama bakımından; emredici, tamamlayıcı, yorumlayıcı ve ___ olarak sınıflandırılabilir.",
+      "correct_answer": "tanımlayıcı",
+      "options": [
+        "soyut",
+        "genel",
+        "özel",
+        "bireysel"
+      ]
+    },
+    {
+      "question": "Kanunların uygulanması, soyut kuralların ___ olaylara uygulanması demektir.",
+      "correct_answer": "somut",
+      "options": [
+        "genel",
+        "istisnai",
+        "önceki",
+        "gelecek"
+      ]
+    },
+    {
+      "question": "Karşılaştırmalı hukuk, farklı hukuk düzenlerinde benzer sorunlara nasıl çözüm bulunduğunu ___.",
+      "correct_answer": "araştırır",
+      "options": [
+        "belirler",
+        "yayımlar",
+        "uygular",
+        "değerlendirir"
+      ]
+    }
+  ]
+}
